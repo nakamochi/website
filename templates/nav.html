@@ -1,0 +1,37 @@
+{%- macro main_nav() %}
+  <ul class="mainnav">
+    {%- for item in config.extra.sitenav -%}
+      {%- set url = get_url(path=item.path, lang=lang) -%}
+      {%- set is_curr_url = false -%}
+      {%- if current_url is defined -%}
+        {%- set is_curr_url = url == current_url -%}
+      {%- endif -%}
+      {%- if is_curr_url %}
+        <li class="muted">{{item[lang]}}</li>
+      {%- else %}
+        <li><a href="{{url|safe}}">{{item[lang]}}</a></li>
+      {%- endif %}
+    {%- endfor %}
+  </ul>
+{%- endmacro -%}
+
+{%- macro lang_picker(transarr) -%}
+  {%- set currlang = lang -%}
+  {%- set translations = [] -%}
+  {%- for t in transarr -%}
+    {%- if t.title -%}
+      {%- set_global translations = translations | concat(with=t) -%}
+    {%- endif -%}
+  {%- endfor -%}
+  <ul class="translist">
+  {%- for t in translations -%}
+    {%- if t.lang != currlang -%}
+      <li><a href="{{t.permalink|safe}}" hreflang="{{t.lang}}" title="{{t.title}}">{{t.lang|upper}}</a></li>
+    {%- else -%}
+      <li>{{t.lang|upper}}</li>
+    {%- endif -%}
+  {%- else -%}
+    <!-- no translations -->
+  {%- endfor -%}
+  </ul>
+{%- endmacro -%}

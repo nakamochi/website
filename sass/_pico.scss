@@ -1,0 +1,57 @@
+@import "_pico/variables";
+@import "colors";
+
+// commons styles
+@import "picostyle";
+
+// light theme by default; can be forced with data-theme="light"
+@import "picolight";
+
+// dark theme; automatically enabled if user has dark mode enabled
+@import "picodark";
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    @include dark;
+  }
+}
+// dark theme forced with with data-theme="dark"
+[data-theme="dark"] {
+  @include dark;
+}
+
+// accent-color
+progress,
+[type="checkbox"],
+[type="radio"],
+[type="range"] {
+  accent-color: var(--primary);
+}
+
+@import "_pico/layout/document"; // html
+@import "_pico/layout/sectioning"; // body, header, main, footer
+@import "_pico/layout/container"; // .container, .container-fluid
+@import "_pico/layout/section"; // section
+@import "_pico/layout/grid"; // .grid
+@import "_pico/layout/scroller"; // figure
+
+@import "_pico/content/typography"; // a, headings, p, ul, blockquote, ...
+@import "_pico/content/embedded"; // audio, canvas, iframe, img, svg, video
+@import "_pico/content/button"; // button, a[role=button], type=button, type=submit ...
+//@import "_pico/content/form"; // input, select, textarea, label, fieldset, legend
+//@import "_pico/content/form-checkbox-radio"; // type=checkbox, type=radio, role=switch
+//@import "_pico/content/form-alt-input-types"; // type=color, type=date, type=file, type=search, ...
+@import "_pico/content/table"; // table, tr, td, ...
+@import "_pico/content/code"; // pre, code, ...
+@import "_pico/content/miscs"; // hr, template, [hidden], dialog, canvas
+
+@import "_pico/components/accordion"; // details, summary
+@import "_pico/components/card"; // article
+//@import "_pico/components/modal"; // dialog
+@import "_pico/components/nav"; // nav
+//@import "_pico/components/progress"; // progress
+//@import "_pico/components/dropdown"; // dropdown
+
+@import "_pico/utilities/loading"; // aria-busy=true
+@import "_pico/utilities/tooltip"; // data-tooltip
+@import "_pico/utilities/accessibility"; // -ms-touch-action, aria-*
+@import "_pico/utilities/reduce-motion"; // prefers-reduced-motion

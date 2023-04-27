@@ -1,0 +1,41 @@
+# https://www.getzola.org/documentation/getting-started/configuration/
+base_url = "https://nakamochi.io"
+# default page meta title and <title/> suffix
+title = "nakamochi"
+# appears in all pages metadata
+description = "a simple to use bitcoin and lightning node for anyone and everyone"
+default_language = "en"
+
+output_dir = "output"
+compile_sass = true
+build_search_index = false
+ignored_content = []
+
+[markdown]
+highlight_code = true
+external_links_target_blank = false
+external_links_no_follow = true
+external_links_no_referrer = true
+
+[link_checker]
+skip_prefixes = []
+skip_anchor_prefixes = []
+internal_level = "error"
+external_level = "error"
+
+# custom variables accessible at config.extra in templates
+[extra]
+sitenav = [
+  {path = "@/source.md", en = "sources", it = "sorgenti"},
+  {path = "@/about.md", en = "about", it = "about"},
+]
+
+[translations]
+not_found = "not found"
+
+# language translations
+[languages.de]
+title = "nakamochi"
+
+[languages.it]
+title = "nakamochi"

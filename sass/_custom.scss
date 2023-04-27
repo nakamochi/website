@@ -1,0 +1,188 @@
+@import "_pico/variables"; // for $breakpoints
+@import "colors";
+
+@font-face {
+    font-family: "courier prime code";
+    src: url("/assets/courierprimecode.woff2") format('woff2'),
+         url("/assets/courierprimecode.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media (min-width: map-get($breakpoints, "md")) and (prefers-color-scheme: light) {
+  .bg-landing {
+    background-image: url("/assets/bg-landing-light.svg");
+    background-size: contain;
+    background-position: top;
+  }
+}
+
+@media (min-width: map-get($breakpoints, "md")) and (prefers-color-scheme: dark) {
+  .bg-landing {
+    background-image: url("/assets/bg-landing-dark.svg");
+    background-size: contain;
+    background-position: top;
+  }
+}
+
+/*****************************
+ * language translation picker
+ */
+
+.langpicker {
+  text-align: right;
+}
+
+ul.translist {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.translist > li {
+  font-size: 0.75em;
+  color: var(--muted-color);
+  display: inline-block;
+  padding: var(--nav-element-spacing-vertical) var(--nav-element-spacing-horizontal);
+}
+
+/*************************
+ * main logo in the header
+ */
+
+.logonav {
+  align-items: flex-start;
+}
+
+ul.logonav > li {
+  padding-top: 0;
+}
+
+.logo img {
+  width: 64px;
+  min-width: 64px;
+}
+.logo.landing img {
+  width: 128px;
+  min-width: 128px;
+}
+
+@media (max-width: map-get($breakpoints, "sm")) {
+  .logo-name {
+    display: none;
+  }
+}
+
+.mainnav {
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: row wrap;
+  column-gap: 5px;
+}
+
+ul.mainnav > li {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* other large-sized logos in the <main> content */
+@media (min-width: map-get($breakpoints, "md")) {
+  .qlogo {
+    max-width: 500px;
+  }
+}
+
+/********************************************
+ * random styles used anywhere and everywhere
+ */
+.top {
+  padding-top: 0;
+}
+
+/* top corners rounded; typically applied to images to resemble a bit
+ * nakamochi enclosure shape */
+.bogen {
+  border-radius: 10px 10px 0 0;
+}
+
+/* useful for notes in footer */
+.muted {
+  color: var(--muted-color);
+}
+
+figure.screenshot > img, img.screenshot {
+  border: 1px solid $grey-700;
+}
+
+h1 {
+  line-height: 1;
+}
+
+/**********************************************************************
+ * media cards have text and images or videos on a side, left or right.
+ * on small screens, the flow is typically in a column.
+ * on larger screens, media is displayed on a side along the text.
+ */
+
+/* text first, media on the right or the opposite */
+.text-media-card {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+
+/* place media captions closer and smaller than usual */
+.card-media figcaption {
+  font-size: 0.75em;
+}
+
+/* align in-text header with the image part of the card */
+.card-text h2:first-child,
+.card-text h3:first-child,
+.card-text h4:first-child {
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+/* breakpoint at which media is placed on a side along the text. */
+@media (min-width: map-get($breakpoints, "md")) {
+  .text-media-card {
+    flex-flow: row nowrap;
+    column-gap: 10px;
+  }
+  .text-media-card > .card-text {
+    flex-grow: 1
+  }
+  .text-media-card > .card-media {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 200px;
+  }
+}
+
+@media (min-width: map-get($breakpoints, "lg")) {
+  .text-media-card {
+    column-gap: 20px;
+  }
+  .text-media-card > .card-media {
+    width: 300px;
+  }
+}
+
+@media (min-width: map-get($breakpoints, "xl")) {
+  .text-media-card > .card-media {
+    width: 350px;
+  }
+}
+
+/*************************************
+ * footer and other end-of-page styles
+ */
+footer {
+  line-height: 1;
+}
+
+footer nav [role=icon] {
+  width: 32px;
+}

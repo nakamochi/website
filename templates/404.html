@@ -1,0 +1,22 @@
+{%- extends "layout.html" %}
+{%- set_global landing = true -%}
+{%- set_global current_url = "/404" -%}
+{%- block meta_title %}{{ trans(key="not_found") ~ " | " ~ config.title }}{% endblock meta_title %}
+{%- block multilang %}{{ nav_macro::lang_picker(transarr=[]) }}{% endblock multilang %}
+
+{%- block header %}
+  <nav>
+    <ul class="logonav">
+      <li class="logo">
+        <a href="{{get_url(path='/', lang=lang)}}"><img src="/assets/nakamochi-bogen.svg" alt="nakamochi logo"></a>
+      </li>
+      <li class="logo-name">nakamochi</li>
+    </ul>
+    {{- nav_macro::main_nav() }}
+  </nav>
+  <h1>{{ trans(key="not_found") }}</h1>
+{%- endblock header %}
+
+{%- block main %}
+<img src="/assets/pro-question-mark.png">
+{%- endblock main %}
