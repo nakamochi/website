@@ -26,16 +26,31 @@ external_level = "error"
 # custom variables accessible at config.extra in templates
 [extra]
 sitenav = [
-  {path = "@/source.md", en = "sources", it = "sorgenti"},
-  {path = "@/about.md", en = "about", it = "about"},
+  {path = "@/source.md", en = "sources", de = "quellcode", it = "sorgenti"},
+  {path = "@/about.md", en = "about", de = "about", it = "about"},
 ]
 
 [translations]
 not_found = "not found"
+foot_license = """\
+    except where otherwise noted, content on this site is licensed under a \
+    <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noreferrer noopener">\
+    CC BY 4.0</a> license.\
+    """
 
 # language translations
 [languages.de]
 title = "nakamochi"
+description = "eine einfache Bitcoin und Lightning Node für alle"
+[languages.de.translations]
+not_found = "nichts gefunden"
+lic_text = "soweit nicht anders angegeben, stehen die Inhalte dieser Seite unter einer"
+lic_url = "https://creativecommons.org/licenses/by/4.0/deed.de"
+foot_license = """\
+    soweit nicht anders angegeben, stehen die Inhalte dieser Seite unter einer \
+    <a href="https://creativecommons.org/licenses/by/4.0/deed.de" rel="license noreferrer noopener">\
+    CC BY 4.0</a> Lizenz.\
+    """
 
 [languages.it]
 title = "nakamochi"
