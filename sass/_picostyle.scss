@@ -8,13 +8,13 @@
   //  "Segoe UI Symbol", "Noto Color Emoji";
   --line-height: 1.5;
   --font-weight: 400;
-  --font-size: 20px;
+  --font-size: 16px;
 
   // responsive typography
   @if $enable-responsive-typography {
     @if map-get($breakpoints, "sm") {
       @media (min-width: map-get($breakpoints, "sm")) {
-        --font-size: 20px;
+        --font-size: 18px;
       }
     }
     @if map-get($breakpoints, "md") {
