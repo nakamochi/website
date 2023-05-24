@@ -4,18 +4,20 @@ title: "über uns"
 
 <figure class="qlogo"><img src="/assets/qeles-logo.png" alt="qeles AG logo"></figure>
 
-We as [qeles AG] have many years of experience in manufacturing PCBs and
-hardware assembly. We want to use this knowledge to start a bottom up
-approach to a concept that has mainly moved in the software world. Designing
-and manufacturing a secure device, starting at the hardware level, allows
-us to keep a large part of the supply chain and the manufacturing as secure
-as possible in an open source device.
+Die [qeles AG] hat langjährige Erfahrung in der Bestückung von Leiterplatten und
+der Montage von Endgeräten. Dieses Wissen wollen wir nutzen, um einen
+Bottom-up-Ansatz für ein Konzept zu entwickeln, das sich hauptsächlich in der
+Software-Welt bewegt. Die Entwicklung und Herstellung eines sicheren Geräts,
+beginnend auf der Hardware-Ebene, ermöglicht es uns, einen großen Teil der
+Lieferkette und der Herstellung so sicher wie möglich in einem Open-Source-Gerät
+zu halten.
 
-Knowing the manufacturing processes, bringing a portfolio of products to the
-market to cater for all freedom and contribution levels and assuring security,
-we believe we can offer a product for many participants.
+Mit unserem Wissen aus Herstellungsprozessen und Portfoliomanagement glauben wir,
+dass wir ein Produkt für viele Teilnehmer anbieten können um höchste Sicherheit
+zu gewährleisten. Es ermöglicht den Einsatz über alle Freiheits- und Beitragsstufen.
 
-We value privacy and security. We will use our knowledge in this field to help
-people in achieving complete financial sovereignty and independence.
+Wir legen viel Wert auf Privatsphäre und Sicherheit. Wir werden unser Wissen in
+diesem Bereich nutzen, um Menschen dabei zu helfen, vollständige finanzielle
+Souveränität und Unabhängigkeit zu erreichen.
 
 [qeles AG]: https://qeles.ch/

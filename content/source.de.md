@@ -1,53 +1,54 @@
 ---
-title: "design and code sources"
+title: "design und quellcode"
 ---
 
-All the designs and software source code are located on our self-hosted
-git repositories at [git.qcode.ch/nakamochi/](https://git.qcode.ch/nakamochi/).
-We also mirror them on GitHub at [github.com/nakamochi/](https://github.com/nakamochi/)
-for redundancy, broader awareness and to ease contributions.
+Alle Entwürfe und der Quellcode der Software befinden sich in unseren selbst
+gehosteten Git-Repositories unter [git.qcode.ch/nakamochi/](https://git.qcode.ch/nakamochi/).
+Wir spiegeln sie auch auf GitHub unter [github.com/nakamochi/](https://github.com/nakamochi/),
+um die Redundanz zu erhöhen, den Bekanntheitsgrad zu steigern und Beiträge
+zu erleichtern.
 
-Our self-hosted git repositories accept issues and code changes only from
-existing accounts, and creating new accounts feature is disabled: we'd like
-to avoid potential abuse. Nonetheless, we will happily take in any suggestions
-on the GitHub mirrors.
+Unsere selbst gehosteten Git-Repositories akzeptieren Themen und Code-Änderungen
+nur von bestehenden Konten. Die Funktion zum Erstellen neuer Konten ist deaktiviert:
+Wir möchten potenziellen Missbrauch vermeiden. Nichtsdestotrotz nehmen wir gerne
+alle Vorschläge von GitHub auf.
 
-The following are the main repositories where the development is done.
+Folgend sind die wichtigsten Repositories, in denen die Entwicklung stattfindet.
 
 ## NDG
 
-Nakamochi daemon and GUI, the main software part. It is composed of two layers:
-a background daemon and a touch-capable GUI interface.
+Nakamochi Daemon und GUI, der Hauptteil der Software. Dies besteht aus zwei Schichten:
+einem Hintergrund-Daemon und einer touchfähigen GUI-Schnittstelle.
 
-- repository: [git.qcode.ch/nakamochi/ndg](https://git.qcode.ch/nakamochi/ndg)
-- mirror: [github.com/nakamochi/ndg](https://github.com/nakamochi/ndg)
+- Repository: [git.qcode.ch/nakamochi/ndg](https://git.qcode.ch/nakamochi/ndg)
+- Spiegel: [github.com/nakamochi/ndg](https://github.com/nakamochi/ndg)
 
 {{ screenshot(src="/assets/ngui-screenshot.png", caption="nakamochi touchscreen GUI screenshot") }}
 
 ## 3D
 
-CAD designs of enclosures and other related mechanical parts.
+CAD-Designs von Gehäusen und anderen zugehörigen mechanischen Teilen.
 
-- repository: [git.qcode.ch/nakamochi/3d](https://git.qcode.ch/nakamochi/3d)
-- mirror: [github.com/nakamochi/3d](https://github.com/nakamochi/3d)
+- Repository: [git.qcode.ch/nakamochi/3d](https://git.qcode.ch/nakamochi/3d)
+- Spiegel: [github.com/nakamochi/3d](https://github.com/nakamochi/3d)
 
 {{ screenshot(src="/assets/git-3d-screenshot.png", caption="nakamochi touchscreen GUI screenshot") }}
 
 ## sysupdates
 
-Operating system tweaks and automated updates. All nodes fetch and install updates
-from this repository.
+Optimierungen des Betriebssystems und automatische Aktualisierungen.
+Alle Nodes holen und installieren Updates aus diesem Repository.
 
-- repository: [git.qcode.ch/nakamochi/sysupdates](https://git.qcode.ch/nakamochi/sysupdates)
-- mirror: [github.com/nakamochi/sysupdates](https://github.com/nakamochi/sysupdates)
+- Repository: [git.qcode.ch/nakamochi/sysupdates](https://git.qcode.ch/nakamochi/sysupdates)
+- Spiegel: [github.com/nakamochi/sysupdates](https://github.com/nakamochi/sysupdates)
 
 ## PCB
 
 <div class="text-media-card">
   <div class="card-text">
 
-PRO version custom board hardware designs. This is still upcoming. We will add links here
-as soon as the repository is live.
+Benutzerdefinierte Hardware-Designs für die PRO-Version. Dies ist noch nicht abgeschlossen.
+Wir werden hier Links hinzufügen, sobald das Repository live ist.
 
   </div>
   <figure class="card-media">
