@@ -17,7 +17,7 @@ Folgend sind die wichtigsten Repositories, in denen die Entwicklung stattfindet.
 
 ## NDG
 
-Nakamochi Daemon und GUI, der Hauptteil der Software. Dies besteht aus zwei Schichten:
+Nakamochi Daemon und GUI, der Hauptteil der Software. Diese besteht aus zwei Schichten:
 einem Hintergrund-Daemon und einer touchfähigen GUI-Schnittstelle.
 
 - Repository: [git.qcode.ch/nakamochi/ndg](https://git.qcode.ch/nakamochi/ndg)
@@ -47,8 +47,8 @@ Alle Nodes holen und installieren Updates aus diesem Repository.
 <div class="text-media-card">
   <div class="card-text">
 
-Benutzerdefinierte Hardware-Designs für die PRO-Version. Dies ist noch nicht abgeschlossen.
-Wir werden hier Links hinzufügen, sobald das Repository live ist.
+Benutzerdefinierte Hardware-Designs für die PRO-Version. Dieser Teil ist noch nicht
+abgeschlossen. Wir werden hier Links hinzufügen, sobald das Repository live ist.
 
   </div>
   <figure class="card-media">
