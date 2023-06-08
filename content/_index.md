@@ -108,7 +108,7 @@ and 3D printing.
   <div class="card-text">
 
 If you are mostly interested in the freedom of the Bitcoin Standard, helping
-the Bitcon network to remain decentralized, and want a device that just works
+the Bitcoin network to remain decentralized, and want a device that just works
 without a DIY-like technical knowledge in hardware design and software engineering,
 the PRO edition is the one for you.
 

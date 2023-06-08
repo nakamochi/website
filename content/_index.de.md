@@ -110,7 +110,7 @@ und 3D-Druck.
   <div class="card-text">
 
 Wenn du vor allem an der Freiheit des Bitcoin-Standards interessiert bist, dem
-Bitcon-Netzwerk helfen willst dezentralisiert zu bleiben, und ein Gerät willst,
+Bitcoin-Netzwerk helfen willst dezentralisiert zu bleiben, und ein Gerät willst,
 das ohne ein DIY-ähnliches technisches Wissen in Hardware-Design und
 Software-Engineering einfach funktioniert, ist die PRO-Edition die Richtige für dich.
 
