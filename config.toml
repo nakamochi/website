@@ -44,8 +44,6 @@ title = "nakamochi"
 description = "eine einfache Bitcoin und Lightning Node für alle"
 [languages.de.translations]
 not_found = "nichts gefunden"
-lic_text = "soweit nicht anders angegeben, stehen die Inhalte dieser Seite unter einer"
-lic_url = "https://creativecommons.org/licenses/by/4.0/deed.de"
 foot_license = """\
     soweit nicht anders angegeben, stehen die Inhalte dieser Seite unter einer \
     <a href="https://creativecommons.org/licenses/by/4.0/deed.de" rel="license noreferrer noopener">\
