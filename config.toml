@@ -52,3 +52,11 @@ foot_license = """\
 
 [languages.it]
 title = "nakamochi"
+description = "un nodo bitcoin e lightning semplice da usare per tutti"
+[languages.it.translations]
+not_found = "pagina non trovata"
+foot_license = """\
+    su questo sito tutti i contenuti sono pubblicati secondo le norme della licenza \
+    <a href="https://creativecommons.org/licenses/by/4.0/deed.it" rel="license noreferrer noopener">\
+    CC BY 4.0</a>, ad eccezione dei casi in cui siano esplicitamente indicate altre condizioni di uso.\
+    """
