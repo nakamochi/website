@@ -125,3 +125,14 @@ The PRO edition is still work-in-progress.
     <figcaption>PRO version in progress</figcaption>
   </figure>
 </div>
+
+## Newsletter
+
+Sign up to receive news and updates about nakamochi.
+
+<form method="post" action="https://listmonk.nakamochi.io/subscription/form" class="listmonk-form">
+  <input type="hidden" name="nonce">
+  <input type="hidden" name="l" value="3c3bf41a-cda3-43b6-af42-452424b022df">
+  <p><input type="email" name="email" placeholder="e-mail" required></p>
+  <p><input type="submit" value="subscribe" /></p>
+</form>

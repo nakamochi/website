@@ -127,3 +127,14 @@ Die PRO-Version befindet sich noch in der Entwicklung.
     <figcaption>PRO version in progress</figcaption>
   </figure>
 </div>
+
+## Newsletter
+
+Melde dich an um die Neuigkeiten und Updates über nakamochi zu erhalten.
+
+<form method="post" action="https://listmonk.nakamochi.io/subscription/form" class="listmonk-form">
+  <input type="hidden" name="nonce">
+  <input type="hidden" name="l" value="3c3bf41a-cda3-43b6-af42-452424b022df">
+  <p><input type="email" name="email" placeholder="e-mail" required></p>
+  <p><input type="submit" value="Anmelden" /></p>
+</form>
