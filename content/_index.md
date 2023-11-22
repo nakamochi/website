@@ -36,16 +36,16 @@ to emphasize personal, self-hosting.
 
 ## Editions
 
-The following editions are listed in an order of increasing ease of use.
-It is always a trade-off between the costs and effort oneself has to put
-in and the trust into the manufacturing companies and their supply chain.
+We are focusing on two editions. One for tinkeres and people with
+technical knowledge. The other is a "plug-and-play" device, like a
+coffee maker.
 
 <div class="text-media-card">
   <div class="card-text">
 
-All the editions have something in common: the touch screen user interface and
-automated system updates. Even at a high level of distrust one can still benefit
-from the open source software and, equally important, system updates.
+The editions have something in common: the touch screen user interface
+and system updates. Naturally, everything is open source, including
+electronics and mechanical parts we designed ourselves.
 
   </div>
   <figure class="card-media screenshot">
@@ -54,75 +54,59 @@ from the open source software and, equally important, system updates.
   </figure>
 </div>
 
-### DIY
+### NERD
 
 <div class="text-media-card">
   <div class="card-text">
 
-The [DIY version](https://git.qcode.ch/nakamochi/3d#diy-version-fff) is designed using
-only off-the-shelf hardware components and 3D printed parts. It is a running system
-and you can source and even replace the hardware. Everything is open source and freely
-accessible for everyone. You can of course buy the whole kit from us to make things easier.
-Enjoy checking out the source code, CAD designs and schematics. You can tinker here, just
-be sure that the device still works after that.
+The NERD edition is designed using only off-the-shelf electronics components,
+3D-printed and CNC-milled mechanical parts. It is a running system and you can
+source and even replace the hardware. Everything is open source and freely
+accessible for everyone. Here you profit from some product engineering.
+It improves heat dissipation while keeping the device completely silent, fanless.
 
-  </div>
-  <figure class="card-media bogen">
-    <img src="/assets/diy-assembly.png" alt="DIY version assembly">
-    <figcaption>DIY version assembly</figcaption>
-  </figure>
-</div>
+You can of course buy the whole kit from us to make things easier,
+or source CNC and 3D printed material yourself. We will be offering it
+in the preassembled and kit form.
 
-### DIY+
-
-<div class="text-media-card">
-  <div class="card-text">
-
-If you want to profit from some product engineering but still want to use
-off-the-shelf components, we recommend the DIY+ version. As the name tells,
-the "plus" in this version improves some characteristics of the device.
-
-For example, the previous DIY version may suffer from overheating in certain
-conditions. This edition improves heat dissipation while keeping the device
-completely silent, fanless.
-
-However, this edition still requires technical knowledge in CNC machining
-and 3D printing.
+Enjoy checking out the source code, CAD designs and schematics.
+You can tinker here, just be sure that the device still works after that.
 
   </div>
   <div class="card-media">
     <figure class="bogen">
-      <img src="/assets/diyplus-assembly.png" alt="DIY+ version assembly">
-      <figcaption>DIY+ version assembly</figcaption>
+      <img src="/assets/nerd-assembly.png" alt="NERD version assembly">
+      <figcaption>NERD assembly</figcaption>
     </figure>
     <figure>
-      <img src="/assets/ir1166.jpg" alt="DIY+ heat dissipation">
-      <figcaption>DIY+ heat dissipation during initial block download</figcaption>
+      <img src="/assets/ir1166.jpg" alt="NERD heat dissipation">
+      <figcaption>heat dissipation during initial block download</figcaption>
     </figure>
   </div>
 </div>
 
-### PRO
+### KAFI
 
 <div class="text-media-card">
   <div class="card-text">
 
-If you are mostly interested in the freedom of the Bitcoin Standard, helping
-the Bitcoin network to remain decentralized, and want a device that just works
-without a DIY-like technical knowledge in hardware design and software engineering,
-the PRO edition is the one for you.
+If you are mostly interested in the freedom of the Bitcoin Standard,
+helping the Bitcoin network to remain decentralized, and want a device
+that just works without a NERD-like technical knowledge in hardware
+design and software engineering, the KAFI edition is the one for you.
 
-We are taking all the knowledge and learnings from the DIY versions and designing
-most of the parts ourselves here: from mechanical parts and enclosure to PCBs for
-an optimal device solution where hardware and software work very well together.
-All of the work is open source.
+We are taking all the knowledge and learnings from the NERD edition and
+designing most of the parts ourselves here: from mechanical parts and
+enclosure to PCBs for an optimal device solution where hardware and
+software function well together. All of the work is open
+source.
 
-The PRO edition is still work-in-progress.
+The KAFI edition is still work-in-progress and will be available soon.
 
   </div>
   <figure class="card-media bogen">
-    <img src="/assets/pro-question-mark.png" alt="PRO version in progress">
-    <figcaption>PRO version in progress</figcaption>
+    <img src="/assets/kafi-question-mark.png" alt="KAFI version in progress">
+    <figcaption>KAFI version in progress</figcaption>
   </figure>
 </div>
 

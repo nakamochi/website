@@ -37,18 +37,17 @@ zusammen, um die persönliche, selbstverwaltete Nutzung zu betonen.
 
 ## Versionen
 
-Die folgenden Versionen sind in der Reihenfolge zunehmender Benutzerfreundlichkeit
-aufgeführt. Es ist immer ein Kompromiss zwischen den Kosten und dem Aufwand,
-den man selbst betreiben muss, und dem Vertrauen in das Fertigungsunternehmen
-und seine Lieferkette.
+Wir konzentrieren uns auf zwei Editionen. Eine für Tüftler und Menschen
+mit technischem Wissen. Die andere ist ein "Plug-and-Play"-Gerät, eine
+Kaffeemaschine.
 
 <div class="text-media-card">
   <div class="card-text">
 
-Alle Versionen haben etwas gemeinsam: die Touchscreen-Benutzeroberfläche und
-automatische System-Updates. Selbst bei einem hohen Mass an Misstrauen kann
-man immer noch von der Open-Source-Software und, was ebenso wichtig ist,
-von den System-Updates profitieren.
+Die Editionen haben das wichtigste gemeinsam: die
+Touchscreen-Benutzeroberfläche und System-Updates. Natürlich ist alles
+Open Source, einschließlich der Elektronik und der mechanischen Teile,
+die wir selbst entwickelt haben.
 
   </div>
   <figure class="card-media screenshot">
@@ -57,74 +56,63 @@ von den System-Updates profitieren.
   </figure>
 </div>
 
-### DIY
+### NERD
 
 <div class="text-media-card">
   <div class="card-text">
 
-Für die [DIY-Version](https://git.qcode.ch/nakamochi/3d#diy-version-fff) werden
-nur handelsübliche Hardwarekomponenten und 3D-gedruckte Teile verwendet. Es handelt
-sich um ein lauffähiges System; du kannst die Hardware selber beziehen und sogar
-ersetzen. Alles ist Open Source und für jeden frei zugänglich. Du kannst
-natürlich auch das gesamte Kit bei uns günstiger kaufen, um das Sourcing zu vereinfachen.
-Viel Spass beim Ausprobieren des Quellcodes, der CAD-Entwürfe und der Schaltpläne.
-Du kannst hier frei darauf losbasteln. Stelle einfach sicher, dass das Gerät danach
-noch funktioniert.
+Die NERD Edition wurde ausschließlich aus frei
+verfügbaren/handelsüblichen elektronischen Komponenten, 3D-gedruckten
+und CNC-gefrästen mechanischen Teilen entwickelt. Es handelt sich um ein
+funktionierendes System, Sie können die Hardware sogar selbst beziehen
+und ersetzen. Alles ist Open Source und für jeden frei zugänglich. Hier
+profitierst du bereits von einer gewissen Produktentwicklung: Eine
+verbesserte Wärmeableitung, während das Gerät völlig geräuschlos und
+lüfterlos bleibt.
 
-  </div>
-  <figure class="card-media bogen">
-    <img src="/assets/diy-assembly.png" alt="DIY version assembly">
-    <figcaption>DIY version assembly</figcaption>
-  </figure>
-</div>
+Für den NERD kannst du natürlich den ganzen Bausatz von uns kaufen, um
+die Dinge einfacher zu machen, oder CNC- und 3D-gedrucktes Material
+selbst beschaffen. Es wird in vormontierter und Kit Form verkauft.
 
-### DIY+
-
-<div class="text-media-card">
-  <div class="card-text">
-
-Wenn du von einer Produktentwicklung profitieren möchtest, aber trotzdem
-handelsübliche Komponenten verwenden möchtest, empfehlen wir die DIY+-Version.
-Wie der Name schon sagt, verbessert das "Plus" in dieser Version einige
-Eigenschaften des Geräts. Diese Version verbessert die Wärmeableitung, wobei
-das Gerät völlig geräuschlos und ohne Lüfter bleibt. Allerdings erfordert
-diese Ausgabe immer noch minimale technische Kenntnisse in der CNC-Bearbeitung
-und 3D-Druck.
+Viel Spaß beim Ausprobieren des Quellcodes, der CAD-Entwürfe und der
+Schaltpläne. Du kannst hier basteln, sei einfach sicher, dass das Gerät
+danach noch funktioniert.
 
   </div>
   <div class="card-media">
     <figure class="bogen">
-      <img src="/assets/diyplus-assembly.png" alt="DIY+ version assembly">
-      <figcaption>DIY+ version assembly</figcaption>
+      <img src="/assets/nerd-assembly.png" alt="NERD version assembly">
+      <figcaption>NERD version assembly</figcaption>
     </figure>
     <figure>
-      <img src="/assets/ir1166.jpg" alt="DIY+ heat dissipation">
-      <figcaption>DIY+ heat dissipation during initial block download</figcaption>
+      <img src="/assets/ir1166.jpg" alt="NERD heat dissipation">
+      <figcaption>heat dissipation during initial block download</figcaption>
     </figure>
   </div>
 </div>
 
-### PRO
+### KAFI
 
 <div class="text-media-card">
   <div class="card-text">
 
-Wenn du vor allem an der Freiheit des Bitcoin-Standards interessiert bist, dem
-Bitcoin-Netzwerk helfen willst dezentralisiert zu bleiben, und ein Gerät willst,
-das ohne ein DIY-ähnliches technisches Wissen in Hardware-Design und
-Software-Engineering einfach funktioniert, ist die PRO-Edition die Richtige für dich.
+Wenn du vor allem an der Freiheit des Bitcoin-Standards interessiert
+bist, dem Bitcoin-Netzwerk helfen willst dezentralisiert zu bleiben, und
+ein Gerät willst, das einfach funktioniert, ohne ein NERD-ähnliches
+technisches Wissen in Hardware-Design und Software-Engineering, dann ist
+die KAFI-Edition das Richtige für Sie.
 
-Wir nehmen das gesamte Wissen aus den DIY-Versionen und entwerfen die meisten
-Teile selbst: von den mechanischen Teilen, über das Gehäuse bis hin zu den Leiterplatten.
-All dies für eine optimale Gerätelösung, bei der Hardware und Software sehr gut
-zusammenarbeiten. Diese Arbeit bleibt natürlich Open Source.
-
-Die PRO-Version befindet sich noch in der Entwicklung.
+Wir nehmen all das Wissen und die Lehren aus der NERD-Version und
+entwickeln die meisten Teile selbst: von den mechanischen Teilen über
+das Gehäuse bis hin zu den Platinen für eine optimale Gerätelösung, bei
+der Hardware und Software sehr gut zusammenarbeiten. Die gesamte Arbeit
+ist Open Source. Die KAFI-Version ist noch in Arbeit und wird bald
+verfügbar sein.
 
   </div>
   <figure class="card-media bogen">
-    <img src="/assets/pro-question-mark.png" alt="PRO version in progress">
-    <figcaption>PRO version in progress</figcaption>
+    <img src="/assets/kafi-question-mark.png" alt="KAFI version in progress">
+    <figcaption>KAFI version in progress</figcaption>
   </figure>
 </div>
 

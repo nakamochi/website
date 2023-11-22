@@ -32,7 +32,7 @@ CAD-Designs von Gehäusen und anderen zugehörigen mechanischen Teilen.
 - Repository: [git.qcode.ch/nakamochi/3d](https://git.qcode.ch/nakamochi/3d)
 - Spiegel: [github.com/nakamochi/3d](https://github.com/nakamochi/3d)
 
-{{ screenshot(src="/assets/git-3d-screenshot.png", caption="nakamochi touchscreen GUI screenshot") }}
+{{ screenshot(src="/assets/git-3d-repo.png", caption="CAD designs of mechanical parts") }}
 
 ## sysupdates
 
@@ -47,11 +47,11 @@ Alle Nodes holen und installieren Updates aus diesem Repository.
 <div class="text-media-card">
   <div class="card-text">
 
-Benutzerdefinierte Hardware-Designs für die PRO-Version. Dieser Teil ist noch nicht
+Benutzerdefinierte Hardware-Designs für die KAFI-Version. Dieser Teil ist noch nicht
 abgeschlossen. Wir werden hier Links hinzufügen, sobald das Repository live ist.
 
   </div>
   <figure class="card-media">
-    <img src="/assets/pro-question-mark.png" alt="PRO version in progress">
+    <img src="/assets/kafi-question-mark.png" alt="KAFI version in progress">
   </figure>
 </div>

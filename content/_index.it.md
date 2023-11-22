@@ -39,76 +39,56 @@ Con questo nome vogliamo porre l'accento sul self-hosting vero proprio, a casa.
 
 ## Le versioni
 
-Le edizioni sotto elencate sono in ordine crescente per facilità d'uso.
-Si tratta sempre di un compromesso tra costi, lavoro necessario da parte
-dell'utente, e fiducia nell'azienda produttrice e la sua supply chain.
+Siamo focalizzati su due edizioni. Una è orientata agli smanettoni e le persone
+con cononscenze tecniche. L'altra è "plug-and-play", come una macchinetta del caffè.
 
 <div class="text-media-card">
   <div class="card-text">
 
-Tutte le versioni hanno delle parti in comune: l'interfaccia utente touch screen
-e gli aggiornamenti automatici del sistema. Anche con un livello di fiducia basso
-è comunque possibile trarre benefici dall'utilizzo del software open source e,
-cosa altrettanto importante, dagli aggiornamenti del sistema.
+Le edizioni hanno in comune l'interfaccia grafica touchscreen e gli aggiornamenti
+del sistema. Naturalmente, tutto è open source, comprese le parti elettroniche
+e meccaniche che abbiamo sviluppato noi in casa.
 
   </div>
   <figure class="card-media screenshot">
     <img src="/assets/ngui-screenshot.png" alt="nakamochi touchscreen GUI screenshot">
-    <figcaption>nakamochi touchscreen GUI screenshot</figcaption>
+    <figcaption>screenshot dell'interfaccia grafica sul touchscreen</figcaption>
   </figure>
 </div>
 
-### DIY
+### NERD
 
 <div class="text-media-card">
   <div class="card-text">
 
-La [versione fai-da-te](https://git.qcode.ch/nakamochi/3d#diy-version-fff) è stata
-progettata utilizzando solo componenti hardware standard e  parti stampabili in 3D.
-È un sistema completamente funzionante, ed è possibile reperire e persino sostituire
-l'hardware. Tutto è open source e liberamente accessibile. Naturalmente è possibile
-acquistare l'intero kit presso di noi per rendere le cose più facili.
-Puoi divertirti a revisionare il codice sorgente, i disegni CAD e le schematiche.
-Smanetta senza limiti. Assicurati solo che poi l'apparecchio funzioni ancora :)
-
-  </div>
-  <figure class="card-media bogen">
-    <img src="/assets/diy-assembly.png" alt="DIY version assembly">
-    <figcaption>DIY version assembly</figcaption>
-  </figure>
-</div>
-
-### DIY+
-
-<div class="text-media-card">
-  <div class="card-text">
-
-Se vuoi approfittare della nostra conoscenza, ma desideri comunque utilizzare
-componenti standard, ti consigliamo la versione **DIY+**. Come dice il nome,
-il "plus" in questa versione migliora alcune caratteristiche del dispositivo.
-
-Ad esempio, la precedente versione fai-da-te può riscaldarsi, raggiungendo
-temperature abbastanza elevate in determinate condizioni. Questa edizione
-migliora la dissipazione del calore mantenendo l'apparecchio completamente
+La versione NERD è stata progettata utilizzando solo componenti elettronici standard,
+parti meccaniche stampate in 3D e fresate a CNC. È un sistema completamente funzionante
+ed è possibile persino sostituire l'hardware. Tutto è open source e liberamente
+accessibile. Qui si approfitta delle nostre conoscenze nel product engineering.
+Ad esempio, migliora la dissipazione del calore permettendo l'apparecchio completamente
 silenzioso, senza ventole.
 
-Tuttavia, questa edizione richiede ancora alcune conoscenze tecniche nel campo
-della lavorazione CNC e delle stampe 3D.
+Sarà possibile acquistare presso di noi l'intero kit fai-da-te oppure la versione
+preassemblata. Naturalmente, uno può procurarsi tutti i compomenti incluso le parti
+CNC e stampata 3D autonomamente.
+
+Divertiti a revisionare il codice sorgente, i disegni CAD e le schematiche.
+Smanetta senza limiti. Assicurati solo che poi l'apparecchio funzioni ancora.
 
   </div>
   <div class="card-media">
     <figure class="bogen">
-      <img src="/assets/diyplus-assembly.png" alt="DIY+ version assembly">
-      <figcaption>DIY+ version assembly</figcaption>
+      <img src="/assets/nerd-assembly.png" alt="assemblaggio versione NERD">
+      <figcaption>assemblaggio versione NERD</figcaption>
     </figure>
     <figure>
-      <img src="/assets/ir1166.jpg" alt="DIY+ heat dissipation">
-      <figcaption>DIY+ heat dissipation during initial block download</figcaption>
+      <img src="/assets/ir1166.jpg" alt="dissipazione del calore durante l'IBD (initial block download)">
+      <figcaption>dissipazione del calore durante l'IBD (initial block download)</figcaption>
     </figure>
   </div>
 </div>
 
-### PRO
+### KAFI
 
 <div class="text-media-card">
   <div class="card-text">
@@ -117,20 +97,20 @@ Se sei principalmente interessato agli aspetti di libertà e l'indipendenza,
 al vivere nel mondo del "Bitcoin Standard", aiutando la rete Bitcoin a rimanere
 decentralizzata, e desideri un dispositivo che funzioni senza conoscenze tecniche
 fai-da-te nella progettazione l'hardware e nell'ingegneria del software, la versione
-PRO è quella che fa per te.
+KAFI è quella che fa per te.
 
-Stiamo utilizzando tutte le conoscenze apprese durante lo sviluppo delle edizioni
-DIY e DIY+, al fine di costruire la maggior parte dei componenti all'interno della
-nostra azienda: dalle parti meccaniche alle schede PCB per ottenere una soluzione
+Stiamo utilizzando tutte le conoscenze apprese durante lo sviluppo della edizione
+NERD al fine di costruire la maggior parte dei componenti noi in casa:
+dalle parti meccaniche alle schede PCB per ottenere una soluzione
 ottimale, in cui l'hardware ed il software funzionano perfettamente insieme.
 Tutto il lavoro è naturalmente 100% open source.
 
-L'edizione PRO è ancora in progettazione.
+L'edizione KAFI è ancora in lavorazione.
 
   </div>
   <figure class="card-media bogen">
-    <img src="/assets/pro-question-mark.png" alt="PRO version in progress">
-    <figcaption>PRO version in progress</figcaption>
+    <img src="/assets/kafi-question-mark.png" alt="versione KAFI ancora in lavorazione">
+    <figcaption>versione KAFI ancora in lavorazione</figcaption>
   </figure>
 </div>
 

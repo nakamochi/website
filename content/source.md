@@ -31,7 +31,7 @@ CAD designs of enclosures and other related mechanical parts.
 - repository: [git.qcode.ch/nakamochi/3d](https://git.qcode.ch/nakamochi/3d)
 - mirror: [github.com/nakamochi/3d](https://github.com/nakamochi/3d)
 
-{{ screenshot(src="/assets/git-3d-screenshot.png", caption="nakamochi touchscreen GUI screenshot") }}
+{{ screenshot(src="/assets/git-3d-repo.png", caption="CAD designs of mechanical parts") }}
 
 ## sysupdates
 
@@ -46,11 +46,11 @@ from this repository.
 <div class="text-media-card">
   <div class="card-text">
 
-PRO version custom board hardware designs. This is still upcoming. We will add links here
+KAFI version custom board electronics designs. This is still upcoming. We will add links here
 as soon as the repository is live.
 
   </div>
   <figure class="card-media">
-    <img src="/assets/pro-question-mark.png" alt="PRO version in progress">
+    <img src="/assets/kafi-question-mark.png" alt="KAFI version in progress">
   </figure>
 </div>

@@ -22,7 +22,7 @@ a background daemon and a touch-capable GUI interface.
 - repository: [git.qcode.ch/nakamochi/ndg](https://git.qcode.ch/nakamochi/ndg)
 - mirror: [github.com/nakamochi/ndg](https://github.com/nakamochi/ndg)
 
-{{ screenshot(src="/assets/ngui-screenshot.png", caption="nakamochi touchscreen GUI screenshot") }}
+{{ screenshot(src="/assets/ngui-screenshot.png", caption="l'interfaccia grafica del touchscreen") }}
 
 ## 3D
 
@@ -31,7 +31,7 @@ CAD designs of enclosures and other related mechanical parts.
 - repository: [git.qcode.ch/nakamochi/3d](https://git.qcode.ch/nakamochi/3d)
 - mirror: [github.com/nakamochi/3d](https://github.com/nakamochi/3d)
 
-{{ screenshot(src="/assets/git-3d-screenshot.png", caption="nakamochi touchscreen GUI screenshot") }}
+{{ screenshot(src="/assets/git-3d-repo.png", caption="i disegni CAD delle parti meccaniche") }}
 
 ## sysupdates
 
@@ -46,11 +46,11 @@ from this repository.
 <div class="text-media-card">
   <div class="card-text">
 
-PRO version custom board hardware designs. This is still upcoming. We will add links here
+KAFI version custom board hardware designs. This is still upcoming. We will add links here
 as soon as the repository is live.
 
   </div>
   <figure class="card-media">
-    <img src="/assets/pro-question-mark.png" alt="PRO version in progress">
+    <img src="/assets/kafi-question-mark.png" alt="versione KAFI è ancora in fase di elaborazione">
   </figure>
 </div>
